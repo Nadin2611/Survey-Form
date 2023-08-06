@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgba(251, 255, 251, 0.8);
+  margin: 0;
+
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-size: 1.13rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-style: italic;
+}
+.title-text {
+  text-align: center;
+}
+
+form {
+  background: rgba(26, 26, 65, 0.9);
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+input[id="name"],
+input[id="email"],
+input[id="number"] {
+  min-height: 2em;
+}
+
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 4px;
+}
+.friend {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+label > select {
+  padding: 7px 2px;
+}
+input[type="submit"] {
+  margin: 0 auto;
+
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgba(106, 214, 106, 0.8);
+  min-width: 300px;
+  color: rgba(251, 255, 251, 0.8);
+}
+.check-class {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
